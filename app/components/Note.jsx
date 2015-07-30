@@ -21,7 +21,7 @@ export default class Note extends React.Component {
     return <div {...props}>
       {edited ? this.renderEdit() : this.renderValue()}
     </div>;
-    
+
   }
   renderEdit() {
     return <input type='text'
